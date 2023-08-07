@@ -7,7 +7,7 @@ st.header("Image Cartonifier web app using OpenCV")
 st.text("Upload the image to be cartonified")
 
 
-import matplotlib.pyplot as plt
+
 def edge_mask(img,line_size,blur_value):
         gray=cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
         gray_blur=cv2.medianBlur(gray,blur_value)
